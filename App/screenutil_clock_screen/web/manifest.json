@@ -1,6 +1,6 @@
 {
-    "name": "home_screen_design",
-    "short_name": "home_screen_design",
+    "name": "screenutil_clock_screen",
+    "short_name": "screenutil_clock_screen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.home_screen_design">
+    package="com.example.screenutil_clock_screen">
    <application
-        android:label="home_screen_design"
+        android:label="screenutil_clock_screen"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
