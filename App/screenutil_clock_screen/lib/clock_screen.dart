@@ -65,6 +65,7 @@ class ClockScreen extends StatelessWidget {
                 days[date.weekday].toUpperCase(),
                 style: GoogleFonts.robotoCondensed().copyWith(
                   fontSize: 20,
+                  color: Colors.grey[600],
                 ),
               ),
               const SizedBox(width: 10),
@@ -72,15 +73,15 @@ class ClockScreen extends StatelessWidget {
                 '${months[date.month].toUpperCase()}-${date.day.toString()}',
                 style: GoogleFonts.robotoCondensed().copyWith(
                   fontSize: 20,
+                  color: Colors.grey[600],
                 ),
               )
             ],
           ),
           Text(
             'CLOUDY 26°C',
-            style: GoogleFonts.robotoCondensed().copyWith(
-              fontSize: 20,
-            ),
+            style: GoogleFonts.robotoCondensed()
+                .copyWith(fontSize: 20, color: Colors.grey[600]),
           ),
           SizedBox(
             height: 80,
